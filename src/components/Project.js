@@ -8,7 +8,7 @@ function Project() {
       title: 'Student Records',
       description: 'Basic CRUD Operations with react and json server',
       link: 'https://nirmalkumar223.github.io/CRUD-operations-on-React-App/',
-      image: '/images/CRUD.jpg',
+      image: process.env.PUBLIC_URL+'/images/CRUD.jpg',
     },
   ];
 
