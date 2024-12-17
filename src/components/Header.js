@@ -49,6 +49,7 @@ function Header() {
     autoPlay
     loop
     muted
+    playsInline
     className="absolute top-0 left-0 w-full h-full object-cover backdrop-grayscale"
   >
     <source src="video/bgc4.mp4" type="video/mp4" />
