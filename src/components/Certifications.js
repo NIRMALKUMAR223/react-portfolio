@@ -4,12 +4,12 @@ function Certifications() {
   const [isVisible, setIsVisible] = useState(false);
 
   const certifications = [
-    { name: 'Front End Development', issuer: 'Great Learning', logo: process.env.PUBLIC_URL+'/images/html.jpg' },
-    { name: 'Basic Of Java', issuer: 'Great Learning', logo: process.env.PUBLIC_URL+'/images/basicsofjava.jpg' },
-    { name: 'Python Programming', issuer: 'NPTEL', logo: process.env.PUBLIC_URL+'/images/python.jpg' },
-    { name: 'MERN Stack', issuer: 'NoviTech', logo: process.env.PUBLIC_URL+'/images/mern.jpeg' },
-    { name: 'ChatGPT for Everyone', issuer: 'GUVI', logo: process.env.PUBLIC_URL+'/images/chatgpt.jpeg' },
-    { name: 'IOT', issuer: 'FutureSkills', logo: process.env.PUBLIC_URL+'/images/iot.PNG' },
+    { name: 'Front End Development', issuer: 'Great Learning', logo: '/images/html.jpg' },
+    { name: 'Basic Of Java', issuer: 'Great Learning', logo: '/images/basicsofjava.jpg' },
+    { name: 'Python Programming', issuer: 'NPTEL', logo: '/images/python.jpg' },
+    { name: 'MERN Stack', issuer: 'NoviTech', logo: '/images/mern.jpeg' },
+    { name: 'ChatGPT for Everyone', issuer: 'GUVI', logo: '/images/chatgpt.jpeg' },
+    { name: 'IOT', issuer: 'FutureSkills', logo: '/images/iot.png' },
   ];
 
   useEffect(() => {

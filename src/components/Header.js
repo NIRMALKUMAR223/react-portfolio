@@ -46,14 +46,12 @@ function Header() {
     <header className="relative h-screen flex flex-col justify-center items-center text-center overflow-hidden">
       {/* Video Background */}
       <video
-        style={{ filter: "grayscale(0.6)" }}
         autoPlay
         loop
         muted
-        playsInline
         className="absolute top-0 left-0 w-full h-full object-cover backdrop-grayscale"
       >
-        <source src="video/bgc.mp4" type="video/mp4" />
+        <source src="video/bgc1.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -67,10 +65,9 @@ function Header() {
         </h1>
         <p
           className={`text-white text-xl mb-6 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'
-            } sm:text-xl md:text-xl lg:text-2xl text-shadow-lg`}
+            } sm:text-l md:text-l lg:text-2xl text-shadow-lg`}
         >
-          A passionate Software Developer with expertise in Full-Stack Development & Natural Language Processing.
-        </p>
+          A passionate Web Developer with expertise in Full-Stack Development, creating responsive and user-friendly digital experiences.        </p>
         <a
           href="resume/Resume.pdf"
           download="Nirmal_Kumar_CV"
