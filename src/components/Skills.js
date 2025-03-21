@@ -63,7 +63,7 @@ function Skills() {
               <div className="w-3/4 bg-gray-200 rounded-full h-2.5">
                 <div
                   className={`h-2.5 bg-blue-600 rounded-full transition-all duration-1000 ${
-                    isVisible ? 'w-3/5' : 'w-0'
+                    isVisible ? 'w-4/5' : 'w-0'
                   }`}
                 />
               </div>
@@ -75,7 +75,7 @@ function Skills() {
               <div className="w-3/4 bg-gray-200 rounded-full h-2.5">
                 <div
                   className={`h-2.5 bg-blue-600 rounded-full transition-all duration-1000 ${
-                    isVisible ? 'w-1/5' : 'w-0'
+                    isVisible ? 'w-4/5' : 'w-0'
                   }`}
                 />
               </div>
@@ -87,7 +87,7 @@ function Skills() {
               <div className="w-3/4 bg-gray-200 rounded-full h-2.5">
                 <div
                   className={`h-2.5 bg-blue-600 rounded-full transition-all duration-1000 ${
-                    isVisible ? 'w-1/6' : 'w-0'
+                    isVisible ? 'w-3/5' : 'w-0'
                   }`}
                 />
               </div>
@@ -99,7 +99,7 @@ function Skills() {
               <div className="w-3/4 bg-gray-200 rounded-full h-2.5">
                 <div
                   className={`h-2.5 bg-blue-600 rounded-full transition-all duration-1000 ${
-                    isVisible ? 'w-2/4' : 'w-0'
+                    isVisible ? 'w-3/5' : 'w-0'
                   }`}
                 />
               </div>

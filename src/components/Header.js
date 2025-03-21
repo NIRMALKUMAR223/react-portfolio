@@ -11,9 +11,9 @@ function Header() {
     let count = 0;
     const typingEffect = () => {
       if (index < name.length) {
-        if (count===0){
-          setTypedName((prev) =>   name.charAt(index));
-          count=1; // Add next character to typedName
+        if (count === 0) {
+          setTypedName((prev) => name.charAt(index));
+          count = 1; // Add next character to typedName
         }
         setTypedName((prev) => prev + name.charAt(index)); // Add next character to typedName
         index++;
@@ -38,49 +38,48 @@ function Header() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsVisible(true);
-    }, 500); 
+    }, 500);
     return () => clearTimeout(timeout);
   }, []);
 
   return (
-<header className="relative h-screen flex flex-col justify-center items-center text-center overflow-hidden">
-  {/* Video Background */}
-  <video
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="absolute top-0 left-0 w-full h-full object-cover backdrop-grayscale"
-  >
-    <source src="video/bgc4.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+    <header className="relative h-screen flex flex-col justify-center items-center text-center overflow-hidden">
+      {/* Video Background */}
+      <video
+        style={{ filter: "grayscale(0.6)" }}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover backdrop-grayscale"
+      >
+        <source src="video/bgc.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-  {/* Content on top of video */}
-  <div className="max-w-3xl mx-auto px-4 relative z-10">
-    <h1
-      className={`text-white font-bold mb-4 transition-opacity duration-1000 ${
-        isVisible ? 'opacity-100' : 'opacity-0'
-      } sm:text-3xl md:text-3xl lg:text-6xl text-shadow-lg`}
-    >
-      Hi, I'm {typedName}
-    </h1>
-    <p
-      className={`text-white text-xl mb-6 transition-opacity duration-1000 ${
-        isVisible ? 'opacity-100' : 'opacity-0'
-      } sm:text-xl md:text-xl lg:text-2xl text-shadow-lg`}
-    >
-      A passionate Software Developer with expertise in Full-Stack Development & Natural Language Processing.
-    </p>
-    <a
-      href="resume/Resume.pdf"
-      download="Nirmal_Kumar_CV"
-      className="bg-green-500 hover:bg-green-400 text-white px-6 py-2 rounded-md text-lg transition-all duration-300 transform hover:scale-105"
-    >
-      Download CV
-    </a>
-  </div>
-</header>
+      {/* Content on top of video */}
+      <div className="max-w-3xl mx-auto px-4 relative z-10">
+        <h1
+          className={`text-white font-bold mb-4 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'
+            } sm:text-3xl md:text-3xl lg:text-6xl text-shadow-lg`}
+        >
+          Hi, I'm {typedName}
+        </h1>
+        <p
+          className={`text-white text-xl mb-6 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'
+            } sm:text-xl md:text-xl lg:text-2xl text-shadow-lg`}
+        >
+          A passionate Software Developer with expertise in Full-Stack Development & Natural Language Processing.
+        </p>
+        <a
+          href="resume/Resume.pdf"
+          download="Nirmal_Kumar_CV"
+          className="bg-green-500 hover:bg-green-400 text-white px-6 py-2 rounded-md text-lg transition-all duration-300 transform hover:scale-105"
+        >
+          Download CV
+        </a>
+      </div>
+    </header>
 
   );
 }
