@@ -7,33 +7,45 @@ function Project() {
   const projects = [
     {
       title: 'Food Order',
-      description: 'Basic CRUD Operations with React and JSON Server.',
+      description: 'React + Tailwind.',
       images: [
         `${process.env.PUBLIC_URL}/images/foodApp1.JPG`,
-        `${process.env.PUBLIC_URL}/images/foodApp2.jpg`,
-        `${process.env.PUBLIC_URL}/images/foodApp3.jpg`,
+        `${process.env.PUBLIC_URL}/images/foodApp2.JPG`,
+        `${process.env.PUBLIC_URL}/images/foodApp3.JPG`,
       ],
       
     },
     {
-      title: 'Netflix Clone',
-      description: 'Basic Operations with React and JSON Server.',
+      title: 'Smart Out Pass',
+      description: 'Basic Operations with React ( Tailwind ) and JSON Server.',
       images: [
-        `${process.env.PUBLIC_URL}/images/netflix1.JPG`,
-        `${process.env.PUBLIC_URL}/images/netflix2.jpg`,
+        `${process.env.PUBLIC_URL}/images/pass1.JPG`,
+        `${process.env.PUBLIC_URL}/images/pass2.JPG`,
+        `${process.env.PUBLIC_URL}/images/pass1.1.JPG`,
+        `${process.env.PUBLIC_URL}/images/pass3.JPG`,
+        `${process.env.PUBLIC_URL}/images/pass2.1.JPG`,
+        `${process.env.PUBLIC_URL}/images/pass4.JPG`,
+        `${process.env.PUBLIC_URL}/images/pass5.JPG`,
       ],
     },
     {
-      title: 'Smart Out Pass',
+      title: 'Netflix Clone',
+      description: 'React + Tailwind.',
+      images: [
+        `${process.env.PUBLIC_URL}/images/netflix1.JPG`,
+        `${process.env.PUBLIC_URL}/images/netflix2.JPG`,
+      ],
+    },
+    {
+      title: 'Bus Booking',
       description: 'Basic Operations with React and JSON Server.',
       images: [
-        `${process.env.PUBLIC_URL}/images/pass1.jpg`,
-        `${process.env.PUBLIC_URL}/images/pass2.jpg`,
-        `${process.env.PUBLIC_URL}/images/pass1.1.jpg`,
-        `${process.env.PUBLIC_URL}/images/pass3.jpg`,
-        `${process.env.PUBLIC_URL}/images/pass2.1.jpg`,
-        `${process.env.PUBLIC_URL}/images/pass4.jpg`,
-        `${process.env.PUBLIC_URL}/images/pass5.jpg`,
+        `${process.env.PUBLIC_URL}/images/bus1.JPG`,
+        `${process.env.PUBLIC_URL}/images/bus2.JPG`,
+        `${process.env.PUBLIC_URL}/images/bus1.1.JPG`,
+        `${process.env.PUBLIC_URL}/images/bus3.JPG`,
+        `${process.env.PUBLIC_URL}/images/bus2.1.JPG`,
+        `${process.env.PUBLIC_URL}/images/bus2.2.JPG`,
       ],
     },
   ];
