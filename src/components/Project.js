@@ -38,7 +38,7 @@ function Project() {
     },
     {
       title: 'Bus Booking',
-      description: 'Basic Operations with React and JSON Server.',
+      description: ' React and Tailwind + JSON Server.',
       images: [
         `${process.env.PUBLIC_URL}/images/bus1.JPG`,
         `${process.env.PUBLIC_URL}/images/bus2.JPG`,
@@ -46,6 +46,14 @@ function Project() {
         `${process.env.PUBLIC_URL}/images/bus3.JPG`,
         `${process.env.PUBLIC_URL}/images/bus2.1.JPG`,
         `${process.env.PUBLIC_URL}/images/bus2.2.JPG`,
+      ],
+    },
+    {
+      title: 'Chat Bot',
+      description: "React + Google's Api.",
+      images: [
+        `${process.env.PUBLIC_URL}/images/chatbot.JPG`,
+        `${process.env.PUBLIC_URL}/images/chatbot1.JPG`,
       ],
     },
   ];
