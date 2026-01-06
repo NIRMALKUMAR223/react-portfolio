@@ -32,7 +32,7 @@ function SocialMedia() {
     },
     {
       platform: "Instagram",
-      href: "https://www.instagram.com/its_me__joy___/",
+      href: "https://www.instagram.com/_shadow223/",
       icon: (
             <svg
             xmlns="http://www.w3.org/2000/svg"
